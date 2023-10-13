@@ -29,6 +29,9 @@ export default function Home() {
       <div className="h-52 bg-yellow-300">
         <p>スクロールされたかどうか</p>
       </div>
+      <div className="h-52 bg-blue-200">
+        <p>スクロールされたかどうか</p>
+      </div>
     </main>
   );
 }
