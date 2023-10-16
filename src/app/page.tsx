@@ -13,7 +13,11 @@ export default function Home() {
       <div id="next-step" onClick={next} className="">
         <button>次へ進む</button>
       </div>
-
+      <div>
+        <a id="vvv" href="https://www.yahoo.co.jp/">
+          <h3>yahoo</h3>
+        </a>
+      </div>
       <div className="h-52 bg-green-500 min-w-[200px] max-w-sm">
         <p>スクロールされたかどうか</p>
       </div>
