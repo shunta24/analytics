@@ -14,7 +14,7 @@ export default function Home() {
         <button>次へ進む</button>
       </div>
       <div>
-        <a id="vvv" href="https://www.yahoo.co.jp/">
+        <a id="jump-yahoo" href="https://www.yahoo.co.jp/">
           <h3>yahoo</h3>
         </a>
       </div>
