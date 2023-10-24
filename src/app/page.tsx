@@ -1,8 +1,13 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Home() {
   const router = useRouter();
+
+  useEffect(() => {
+    console.log("iPadかPCの判定", document.ontouchstart);
+  }, []);
 
   const next = () => {
     router.push("/step");
